@@ -21,7 +21,7 @@ public class FileServiceImplTest {
     }
 
     @Test
-    public void testMatchingWindowsSeperator() {
+    public void testMatchingWindowsSeparator() {
         final List<File> files = FILE_SERVICE.getMatchingFile(
                 new File("."), "**" + File.separator + "FileServiceImplTest.java");
         Assert.assertFalse(files.isEmpty());
